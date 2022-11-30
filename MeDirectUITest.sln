@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect.UITests", "MeDirect.UITests\MeDirect.UITests.csproj", "{FA3CA6E4-D2C4-4EEF-BA3C-338944C51065}"
+	ProjectSection(ProjectDependencies) = postProject
+		{293ADD84-090B-466F-9739-AEE0C6FBC8DB} = {293ADD84-090B-466F-9739-AEE0C6FBC8DB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect", "MeDirect\MeDirect.csproj", "{293ADD84-090B-466F-9739-AEE0C6FBC8DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA3CA6E4-D2C4-4EEF-BA3C-338944C51065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3CA6E4-D2C4-4EEF-BA3C-338944C51065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3CA6E4-D2C4-4EEF-BA3C-338944C51065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3CA6E4-D2C4-4EEF-BA3C-338944C51065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293ADD84-090B-466F-9739-AEE0C6FBC8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293ADD84-090B-466F-9739-AEE0C6FBC8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293ADD84-090B-466F-9739-AEE0C6FBC8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293ADD84-090B-466F-9739-AEE0C6FBC8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1963D0-9F2C-4EFF-8623-BADD83A00C30}
+	EndGlobalSection
+EndGlobal
